@@ -1,0 +1,57 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "large",
+      "weight": "bolder",
+      "text": "HERE IS YOUR ORDER :-",
+      "fontType": "monospace"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "style": "Person",
+              "url": "IMAGE_URL",
+              "size": "Small"
+            }
+          ],
+          "width": "auto"
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "weight": "Bolder",
+              "text": "FRUIT",
+              "horizontalAlignment": "center",
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "MESSAGE",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "THANK YOU FOR THE ORDER",
+      "color": "light",
+      "size": "small",
+      "wrap": true
+    }
+  ],
+
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.5"
+}

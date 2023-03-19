@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "ybpOobj1ZOVzgUvF3ZmflS2UnK5cxLZN8zJZtgTt3Jg=",
+  "Source": "FruitBasket",
+  "BasePath": "_content/FruitBasket",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FruitBasket\\wwwroot",
+      "Source": "FruitBasket",
+      "ContentRoot": "C:\\Users\\NewtonMallick\\source\\repos\\FruitBasket\\wwwroot\\",
+      "BasePath": "_content/FruitBasket",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\NewtonMallick\\source\\repos\\FruitBasket\\wwwroot\\default.htm",
+      "SourceId": "FruitBasket",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NewtonMallick\\source\\repos\\FruitBasket\\wwwroot\\",
+      "BasePath": "_content/FruitBasket",
+      "RelativePath": "default.htm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.htm"
+    }
+  ]
+}
